@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-example",
+  "version": "1.0.0",
+  "description": "Testcafe example doing a search",
+  "main": "tests/searchflow.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:chrome": "testcafe chrome",
+    "test:win": "testcafe chrome,edge",
+    "test:mac": "testcafe chrome,safari"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "e2e",
+    "testcafe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^0.18.6"
+  }
+}

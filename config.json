@@ -1,5 +1,5 @@
 {
-  "ADMIN_USER":"",
+  "SEARCH_STRING":"",
   "ADMIN_PASSWORD":"",
-  "TEST_URL":"https://devexpress.github.io/testcafe/example"
+  "SEARCH_PROVIDER_URL":"https://www.google.com.au"
 }

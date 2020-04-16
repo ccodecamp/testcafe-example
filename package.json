@@ -6,7 +6,7 @@
   "scripts": {
     "test:chrome": "testcafe chrome tests/",
     "test:win": "testcafe chrome,edge",
-    "test:mac": "testcafe chrome,safari tests/"
+    "test:mac": "testcafe chrome,edge,safari tests/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   ],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "testcafe": "^0.18.6"
+  "devDependencies": {},
+  "dependencies": {
+    "testcafe": "^1.8.4"
   }
 }

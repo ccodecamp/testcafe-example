@@ -4,6 +4,6 @@ export default class ResultsPage {
     constructor() {
         this.searchBar = Selector('div[class="SDkEP"]')
         this.menuBar = Selector('#hdtb-msb-vis')
-        this.signInButton = Selector('#gb_70')
+        this.clearSearch = Selector('div[class="dRYYxd"]')
     }
 }

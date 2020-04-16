@@ -21,5 +21,5 @@ test("Check Search Page", async (t) => {
   await t
       .expect(resultsPage.searchBar.exists).ok()
       .expect(resultsPage.menuBar.exists).ok()
-      .expect(resultsPage.signInButton.exists).ok();
+      .expect(resultsPage.clearSearch.exists).ok();
 });
